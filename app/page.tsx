@@ -194,7 +194,13 @@ export default function Home() {
               <div>✓ Services across Hamburg</div>
             </div>
           </div>
-        </div>
+        </div><div className="mt-10">
+  <img
+    src="/images/anna-profile.png"
+    alt="Anna"
+    className="rounded-2xl shadow-xl w-80"
+  />
+</div>
       </section>
     </main>
   );
