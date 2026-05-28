@@ -68,7 +68,11 @@ export default function Home() {
             </a>
 
             <a href="#" className="font-medium hover:text-[#b68a3c]">
-              About Anna
+              {language === "DE"
+  ? "Über Anna"
+  : language === "RU"
+  ? "Об Анне"
+  : "About Anna"}
             </a>
 
             <a href="#" className="font-medium hover:text-[#b68a3c]">
