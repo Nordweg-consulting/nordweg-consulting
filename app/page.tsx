@@ -222,7 +222,10 @@ backgroundPosition: "center",
                 {service.icon}
               </div>
 
-              <h4 className="mt-6 text-xl font-semibold">
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#b68a3c]">
+  {service.title}
+</p>
+<h4 className="mt-6 text-xl font-semibold">
                 {service.title}
               </h4>
 
