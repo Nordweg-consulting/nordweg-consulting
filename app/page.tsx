@@ -39,7 +39,7 @@ export default function Home() {
   ];
 
   return (
-    <main className="bg-[#f8f6f3] text-[#0e224d]">
+    <main className="scroll-smooth bg-[#f8f6f3] text-[#0e224d]">
       {/* NAVBAR */}
       <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
