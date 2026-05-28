@@ -156,7 +156,7 @@ export default function Home() {
 
           <div className="flex justify-center">
             <img
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=800&auto=format&fit=crop"
+              src="/images/anna-profile.png"
               alt="Anna"
               className="h-[420px] w-[320px] rounded-[40px] object-cover shadow-2xl"
             />
