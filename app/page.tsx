@@ -216,7 +216,7 @@ backgroundPosition: "center",
           {services.map((service) => (
             <div
               key={service.title}
-              className="rounded-3xl border border-gray-200 bg-white p-8 shadow-sm transition hover:-translate-y-2 hover:shadow-xl"
+              className="group rounded-3xl border border-white/40 bg-white p-8 shadow-lg transition duration-300 hover:-translate-y-2 hover:shadow-2xl"
             >
               <div className="text-4xl">
                 {service.icon}
