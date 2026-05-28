@@ -59,6 +59,25 @@ export default function Home() {
 >
   ☰
 </button>
+{menuOpen && (
+  <div className="absolute left-4 top-20 z-50 flex w-64 flex-col gap-4 rounded-2xl bg-white p-6 shadow-2xl md:hidden">
+    <a href="#" className="font-medium">
+      Home
+    </a>
+
+    <a href="#" className="font-medium">
+      Services
+    </a>
+
+    <a href="#" className="font-medium">
+      About Anna
+    </a>
+
+    <a href="#" className="font-medium">
+      Testimonials
+    </a>
+  </div>
+)}
 <nav className="hidden gap-8 md:flex">
             <a href="#" className="font-medium hover:text-[#0b1b40]">
   {language === "DE"
