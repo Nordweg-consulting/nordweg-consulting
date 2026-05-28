@@ -151,14 +151,14 @@ export default function Home() {
       </section>
 
       {/* ABOUT */}
+    
+  
       <section className="bg-[#f1ede7] py-24">
         <div className="mx-auto grid max-w-7xl gap-16 px-6 md:grid-cols-2">
 
-          <div className="flex justify-center">
+          
             <img
-              src="/images/anna-profile.png"
-              alt="Anna"
-              className="h-[420px] w-[320px] rounded-[40px] object-cover shadow-2xl"
+            
             />
           </div>
 
