@@ -65,15 +65,15 @@ export default function Home() {
       Home
     </a>
 
-    <a href="#" className="font-medium">
+    <a href="#home" className="font-medium">
       Services
     </a>
 
-    <a href="#" className="font-medium">
+    <a href="#services">
       About Anna
     </a>
 
-    <a href="#" className="font-medium">
+    <a href="#about">
       Testimonials
     </a>
   </div>
@@ -157,7 +157,8 @@ export default function Home() {
 
       {/* HERO */}
       <section
-        className="relative overflow-hidden"
+  id="home"
+  className="relative overflow-hidden"
         style={{
          backgroundImage: "url('/images/hamburg-hero.png')",
 backgroundSize: "cover",
@@ -197,7 +198,10 @@ backgroundPosition: "center",
       </section>
 
       {/* SERVICES */}
-      <section className="mx-auto max-w-7xl px-6 py-24">
+      <section
+  id="services"
+  className="mx-auto max-w-7xl px-6 py-24"
+>
         <div className="text-center">
           <p className="font-semibold tracking-[0.2em] text-[#b68a3c]">
             WHAT WE DO
@@ -230,10 +234,7 @@ backgroundPosition: "center",
         </div>
       </section>
 
-      {/* ABOUT */}
-    
-  
-      <section className="bg-[#f1ede7] py-24">
+      <section id="about" className="bg-[#f1ede7] py-24">
         <div className="mx-auto grid max-w-7xl gap-16 px-6 md:grid-cols-2">
 
           
