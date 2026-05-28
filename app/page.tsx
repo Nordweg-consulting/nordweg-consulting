@@ -53,7 +53,7 @@ export default function Home() {
 
           <button
   onClick={() => setMenuOpen(!menuOpen)}
-  className="text-3xl md:hidden"
+  className="mr-2 text-3xl md:hidden"
 >
   ☰
 </button>
@@ -95,7 +95,7 @@ export default function Home() {
               FAQ
             </a>
           </nav>
-               <div className="flex gap-2 md:ml-6">
+               <div className="ml-2 flex gap-2 md:ml-6">
   <button
   onClick={() => setLanguage("EN")}
   className={`rounded-lg px-3 py-1 font-semibold transition ${
