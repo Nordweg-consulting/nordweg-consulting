@@ -193,7 +193,7 @@ export default function Home() {
               <div>✓ Hundreds of satisfied clients</div>
               <div>✓ Services across Hamburg</div>
             </div>
-          </div>
+          
         <div className="mt-10">
   <img
     src="/images/anna-profile.png"
@@ -201,6 +201,7 @@ export default function Home() {
     className="rounded-2xl shadow-xl w-80"
   />
 </div>
+    </div>  
       </section>
     </main>
   );
