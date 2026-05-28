@@ -129,10 +129,8 @@ export default function Home() {
   🇷🇺 RU
 </button>
 </div>
-
-          <button className="rounded-xl bg-[#0e224d] px-3 py-2 text-sm text-white transition hover:bg-[#152d63] md:px-6 md:py-3 md:text-base">
-            Contact Us
-          </button>
+          
+           
         </div>
       </header>
 
