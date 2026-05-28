@@ -51,9 +51,13 @@ export default function Home() {
           </div>
 
           <nav className="hidden gap-8 md:flex">
-            <a href="#" className="font-medium hover:text-[#b68a3c]">
-              Home
-            </a>
+            <a href="#" className="font-medium hover:text-[#0b1b40]">
+  {language === "DE"
+    ? "Startseite"
+    : language === "RU"
+    ? "Главная"
+    : "Home"}
+</a>
 
             <a href="#" className="font-medium hover:text-[#b68a3c]">
               Services
