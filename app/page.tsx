@@ -185,9 +185,13 @@ backgroundPosition: "center",
                 <div>✓ Multilingual Service</div>
               </div>
 
-              <button className="mt-10 rounded-2xl bg-[#b68a3c] px-8 py-4 text-lg font-semibold text-white shadow-lg transition hover:scale-105 hover:bg-[#a67d33]">
-                Free Initial Consultation
-              </button>
+              <a
+  href="https://wa.me/4916094794282"
+  target="_blank"
+  className="mt-10 inline-block rounded-2xl bg-[#b68a3c] px-8 py-4 text-lg font-semibold text-white shadow-lg transition hover:scale-105 hover:bg-[#a67d33]"
+>
+  Free Initial Consultation
+</a>
 
               <p className="mt-4 text-sm text-gray-600">
                 No obligation • 100% confidential
