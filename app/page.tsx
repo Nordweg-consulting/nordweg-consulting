@@ -3,6 +3,7 @@
 import { useState } from "react";
 export default function Home() {
   const [language, setLanguage] = useState("EN");
+  
   const [menuOpen, setMenuOpen] = useState(false);
   const services = [
     {
@@ -52,8 +53,9 @@ export default function Home() {
           </div>
 
           <button
+          className="mr-2 text-4xl text-[#0e224d] md:hidden"
   onClick={() => setMenuOpen(!menuOpen)}
-  className="mr-2 text-3xl md:hidden"
+  
 >
   ☰
 </button>
