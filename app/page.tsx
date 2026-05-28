@@ -140,10 +140,9 @@ export default function Home() {
       <section
         className="relative overflow-hidden"
         style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=2070&auto=format&fit=crop')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
+         backgroundImage: "url('/images/hamburg-hero.png')",
+backgroundSize: "cover",
+backgroundPosition: "center",
         }}
       >
         <div className="bg-white/80">
