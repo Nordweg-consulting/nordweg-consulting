@@ -183,9 +183,14 @@ export default function Home() {
               I provide personalized support, transparent communication and practical solutions.
             </p>
 
-            <button className="mt-10 rounded-xl bg-[#0e224d] px-8 py-4 text-white transition hover:bg-[#1c3570]">
-              Learn More About Anna
-            </button>
+            
+  <a
+  href="https://wa.me/4916094794282"
+  target="_blank"
+  className="mt-10 inline-block rounded-xl bg-green-600 px-6 py-4 text-white font-semibold shadow-lg hover:bg-green-700 transition"
+>
+  Chat on WhatsApp
+</a>
 
             <div className="mt-12 grid gap-6 text-gray-700 md:grid-cols-2">
               <div>✓ Many years of relocation experience</div>
