@@ -3,6 +3,7 @@
 import { useState } from "react";
 export default function Home() {
   const [language, setLanguage] = useState("EN");
+  const [menuOpen, setMenuOpen] = useState(false);
   const services = [
     {
       title: "Housing Assistance",
@@ -50,7 +51,13 @@ export default function Home() {
             </p>
           </div>
 
-          <nav className="hidden gap-8 md:flex">
+          <button
+  onClick={() => setMenuOpen(!menuOpen)}
+  className="text-3xl md:hidden"
+>
+  ☰
+</button>
+<nav className="hidden gap-8 md:flex">
             <a href="#" className="font-medium hover:text-[#0b1b40]">
   {language === "DE"
     ? "Startseite"
