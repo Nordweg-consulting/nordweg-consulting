@@ -232,6 +232,13 @@ export default function Home() {
 </div>
     </div>  
       </section>
-    </main>
+    <a
+  href="https://wa.me/4916094794282"
+  target="_blank"
+  className="fixed bottom-6 right-6 z-50 flex h-16 w-16 items-center justify-center rounded-full bg-green-500 text-white shadow-2xl hover:bg-green-600 transition"
+>
+  💬
+</a>
+</main>
   );
 }
