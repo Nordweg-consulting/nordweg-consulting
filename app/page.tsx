@@ -89,9 +89,38 @@ export default function Home() {
             </a>
           </nav>
                <div className="flex gap-2 md:ml-6">
-  <button onClick={() => setLanguage("EN")}>EN</button>
-  <button onClick={() => setLanguage("DE")}>DE</button>
-  <button onClick={() => setLanguage("RU")}>RU</button>
+  <button
+  onClick={() => setLanguage("EN")}
+  className={`rounded-lg px-3 py-1 font-semibold transition ${
+    language === "EN"
+      ? "bg-[#0e224d] text-white"
+      : "bg-gray-200 text-black hover:bg-gray-300"
+  }`}
+>
+  🇬🇧 EN
+</button>
+
+<button
+  onClick={() => setLanguage("DE")}
+  className={`rounded-lg px-3 py-1 font-semibold transition ${
+    language === "DE"
+      ? "bg-[#0e224d] text-white"
+      : "bg-gray-200 text-black hover:bg-gray-300"
+  }`}
+>
+  🇩🇪 DE
+</button>
+
+<button
+  onClick={() => setLanguage("RU")}
+  className={`rounded-lg px-3 py-1 font-semibold transition ${
+    language === "RU"
+      ? "bg-[#0e224d] text-white"
+      : "bg-gray-200 text-black hover:bg-gray-300"
+  }`}
+>
+  🇷🇺 RU
+</button>
 </div>
 
           <button className="rounded-xl bg-[#0e224d] px-4 py-2 text-sm text-white transition hover:bg-[#152d63] md:px-6 md:py-3 md:text-base">
