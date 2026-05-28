@@ -76,7 +76,11 @@ export default function Home() {
             </a>
 
             <a href="#" className="font-medium hover:text-[#b68a3c]">
-              Testimonials
+              {language === "DE"
+  ? "Bewertungen"
+  : language === "RU"
+  ? "Отзывы"
+  : "Testimonials"}
             </a><div className="flex gap-2">
   <button onClick={() => setLanguage("EN")}>EN</button>
   <button onClick={() => setLanguage("DE")}>DE</button>
