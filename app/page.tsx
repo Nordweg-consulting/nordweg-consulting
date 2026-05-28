@@ -81,16 +81,18 @@ export default function Home() {
   : language === "RU"
   ? "Отзывы"
   : "Testimonials"}
-            </a><div className="flex gap-2">
-  <button onClick={() => setLanguage("EN")}>EN</button>
-  <button onClick={() => setLanguage("DE")}>DE</button>
-  <button onClick={() => setLanguage("RU")}>RU</button>
-</div>
+            </a>
+       
 
             <a href="#" className="font-medium hover:text-[#b68a3c]">
               FAQ
             </a>
           </nav>
+               <div className="flex gap-2 md:ml-6">
+  <button onClick={() => setLanguage("EN")}>EN</button>
+  <button onClick={() => setLanguage("DE")}>DE</button>
+  <button onClick={() => setLanguage("RU")}>RU</button>
+</div>
 
           <button className="rounded-xl bg-[#0e224d] px-6 py-3 text-white transition hover:bg-[#152d63]">
             Contact Us
@@ -112,7 +114,7 @@ export default function Home() {
           <div className="mx-auto grid max-w-7xl gap-10 px-6 py-24 md:grid-cols-2">
 
             <div>
-              <h2 className="max-w-2xl text-5xl font-bold leading-tight md:text-7xl">
+              <h2 className="max-w-2xl text-3xl font-bold leading-tight md:text-7xl">
                 Housing, Relocation &
                 Job Assistance
                 in Hamburg
