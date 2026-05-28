@@ -1,4 +1,8 @@
+"use client";
+
+import { useState } from "react";
 export default function Home() {
+  const [language, setLanguage] = useState("EN");
   const services = [
     {
       title: "Housing Assistance",
@@ -61,7 +65,11 @@ export default function Home() {
 
             <a href="#" className="font-medium hover:text-[#b68a3c]">
               Testimonials
-            </a>
+            </a><div className="flex gap-2">
+  <button onClick={() => setLanguage("EN")}>EN</button>
+  <button onClick={() => setLanguage("DE")}>DE</button>
+  <button onClick={() => setLanguage("RU")}>RU</button>
+</div>
 
             <a href="#" className="font-medium hover:text-[#b68a3c]">
               FAQ
