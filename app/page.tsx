@@ -237,7 +237,7 @@ backgroundPosition: "center",
               <p className="mt-4 text-sm leading-7 text-gray-600">
                 {service.text}
               </p>
-              <div className="mt-6 font-semibold text-[#0e224d]">
+              <div className="mt-6 font-semibold text-[#b68a3c] transition group-hover:translate-x-1">
   Learn More →
 </div>
             </div>
