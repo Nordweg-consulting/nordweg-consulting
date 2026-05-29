@@ -232,10 +232,14 @@ backgroundPosition: "center",
 <h4 className="mt-6 text-xl font-semibold">
                 {service.title}
               </h4>
+              <div className="mt-3 h-[2px] w-12 bg-[#b68a3c]"></div>
 
               <p className="mt-4 text-sm leading-7 text-gray-600">
                 {service.text}
               </p>
+              <div className="mt-6 font-semibold text-[#0e224d]">
+  Learn More →
+</div>
             </div>
           ))}
         </div>
