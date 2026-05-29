@@ -265,15 +265,12 @@ backgroundPosition: "center",
             </h3>
 
             <p className="mt-8 text-lg leading-8 text-gray-700">
-              Hi, I'm Anna — founder of Nordweg Consulting & Services.
-              I support individuals and families in Hamburg with housing,
-              relocation, job search and integration in Germany.
-            </p>
+  Having lived in Germany for over four years, I understand both the opportunities and challenges people face when starting a new life here. My mission is to make this transition easier, clearer and less stressful.
+</p>
 
-            <p className="mt-6 text-lg leading-8 text-gray-700">
-              My goal is to make your transition smooth, stress-free and successful.
-              I provide personalized support, transparent communication and practical solutions.
-            </p>
+<p className="mt-6 text-lg leading-8 text-gray-700">
+  With more than 10 years of consulting experience, two university degrees and professional experience in coaching and the insurance sector, I support students, professionals, families and newcomers throughout every stage of their relocation journey. Fluent in English, German, Ukrainian and Russian, I provide personalized support, transparent communication and practical solutions tailored to each client's situation.
+</p>
 
             
   <a
@@ -285,11 +282,11 @@ backgroundPosition: "center",
 </a>
 
             <div className="mt-12 grid gap-6 text-gray-700 md:grid-cols-2">
-              <div>✓ Many years of relocation experience</div>
-              <div>✓ Multilingual: EN, DE, UA, RU</div>
-              <div>✓ Hundreds of satisfied clients</div>
-              <div>✓ Services across Hamburg</div>
-            </div>
+  <div>✓ 10+ years of consulting experience</div>
+  <div>✓ Multilingual: EN, DE, UA, RU</div>
+  <div>✓ Official coach and insurance advisor</div>
+  <div>✓ Personal support across Hamburg</div>
+</div>
           
         <div className="mt-10">
   <img
