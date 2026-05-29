@@ -374,6 +374,89 @@ backgroundPosition: "center",
 
   </div>
 </section>
+<footer className="bg-[#0e224d] py-16 text-white">
+  <div className="mx-auto max-w-7xl px-6">
+
+    <div className="grid gap-12 md:grid-cols-3">
+
+      <div>
+        <h3 className="text-3xl font-bold">
+          NORDWEG
+        </h3>
+
+        <p className="mt-2 text-gray-300">
+          Consulting & Services
+        </p>
+
+        <p className="mt-6 text-gray-400">
+          Hamburg, Germany
+        </p>
+      </div>
+
+      <div>
+        <h4 className="text-lg font-semibold">
+          Contact
+        </h4>
+
+        <div className="mt-4 space-y-3">
+
+          <a
+            href="https://wa.me/4916094794282"
+            target="_blank"
+            className="block text-gray-300 transition hover:text-white"
+          >
+            WhatsApp
+          </a>
+
+          <a
+            href="#"
+            className="block text-gray-300 transition hover:text-white"
+          >
+            Telegram
+          </a>
+
+          <a
+            href="#"
+            className="block text-gray-300 transition hover:text-white"
+          >
+            Facebook
+          </a>
+
+        </div>
+      </div>
+
+      <div>
+        <h4 className="text-lg font-semibold">
+          Legal
+        </h4>
+
+        <div className="mt-4 space-y-3">
+
+          <a
+            href="#"
+            className="block text-gray-300 transition hover:text-white"
+          >
+            Impressum
+          </a>
+
+          <a
+            href="#"
+            className="block text-gray-300 transition hover:text-white"
+          >
+            Datenschutz
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div className="mt-12 border-t border-white/10 pt-8 text-sm text-gray-400">
+      © 2026 Nordweg Consulting & Services. All rights reserved.
+    </div>
+
+  </div>
+</footer>
     <a
   href="https://wa.me/4916094794282"
   target="_blank"
