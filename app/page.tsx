@@ -334,8 +334,63 @@ backgroundPosition: "center",
       </p>
     </div>
 
-    <div className="mt-16 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
-    </div>
+    <div className="mt-16 grid gap-8 md:grid-cols-3">
+
+  <div className="rounded-3xl bg-[#f8f6f3] p-8 shadow-lg">
+    <div className="mb-4 text-4xl">🏠</div>
+
+    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#b68a3c]">
+      HOUSING SUPPORT
+    </p>
+
+    <h4 className="mt-4 text-2xl font-bold text-[#0e224d]">
+      Apartment Found in 3 Weeks
+    </h4>
+
+    <div className="mt-3 h-[2px] w-12 bg-[#b68a3c]"></div>
+
+    <p className="mt-4 leading-7 text-gray-600">
+      A family relocating to Hamburg needed long-term housing. We assisted with applications, landlord communication and document preparation, resulting in a successful rental agreement within three weeks.
+    </p>
+  </div>
+
+  <div className="rounded-3xl bg-[#f8f6f3] p-8 shadow-lg">
+    <div className="mb-4 text-4xl">📄</div>
+
+    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#b68a3c]">
+      DOCUMENTS & REGISTRATION
+    </p>
+
+    <h4 className="mt-4 text-2xl font-bold text-[#0e224d]">
+      Smooth Registration Process
+    </h4>
+
+    <div className="mt-3 h-[2px] w-12 bg-[#b68a3c]"></div>
+
+    <p className="mt-4 leading-7 text-gray-600">
+      A newly arrived professional required Anmeldung, tax registration and insurance setup. All appointments and paperwork were completed quickly and without delays.
+    </p>
+  </div>
+
+  <div className="rounded-3xl bg-[#f8f6f3] p-8 shadow-lg">
+    <div className="mb-4 text-4xl">🛡️</div>
+
+    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#b68a3c]">
+      INSURANCE & BANKING
+    </p>
+
+    <h4 className="mt-4 text-2xl font-bold text-[#0e224d]">
+      Settled from Day One
+    </h4>
+
+    <div className="mt-3 h-[2px] w-12 bg-[#b68a3c]"></div>
+
+    <p className="mt-4 leading-7 text-gray-600">
+      We helped a client choose suitable insurance coverage, open a German bank account and understand the essential financial steps after relocation.
+    </p>
+  </div>
+
+</div>
 
   </div>
 </section>
