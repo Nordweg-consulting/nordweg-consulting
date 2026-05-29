@@ -301,27 +301,7 @@ backgroundPosition: "center",
   <div className="mx-auto max-w-7xl px-6">
     <div className="text-center">
       <p className="font-semibold tracking-[0.2em] text-[#b68a3c]">
-        SUCCESS STORIES
-      </p>
-
-      <h3 className="mt-4 text-4xl font-bold">
-        How We Help Our Clients
-      </h3>
-
-      <p className="mx-auto mt-6 max-w-3xl text-gray-600">
-        Real examples of situations where we helped clients settle in Germany faster and with less stress.
-      </p>
-    </div>
-
-    <div className="mt-16 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
-    </div>
-
-  </div>
-</section>
-<section className="bg-white py-24">
-  <div className="mx-auto max-w-7xl px-6">
-    <div className="text-center">
-      <p className="font-semibold tracking-[0.2em] text-[#b68a3c]">
+       
         SUCCESS STORIES
       </p>
 
